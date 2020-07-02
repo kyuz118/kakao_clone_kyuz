@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="kor">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="테스트용 페이지"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatioble" content="ie=edge" />
+    <title>inline example</title>
+  </head>
+  <style>
+    body,
+    html {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      height: 100%;
+      background-color: red;
+    }
+    .father {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      height: 100%;
+      flex-direction: row;
+      flex-wrap: no-wrap;
+    }
+    .box {
+      background-color: blue;
+      width: 200px;
+      height: 200px;
+      border: 1px solid green;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+  </style>
+
+  <body>
+    <div class="father">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+      <div class="box">6</div>
+      <div class="box">7</div>
+      <div class="box">8</div>
+      <div class="box">9</div>
+      <div class="box">10</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="kor">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="테스트용 페이지"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatioble" content="ie=edge" />
+    <title>inline example</title>
+  </head>
+  <style>
+    body,
+    html {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      height: 400%;
+      background-color: red;
+    }
+    .abs-box {
+      width: 400px;
+      height: 400px;
+      background-color: yellow;
+      position: relative;
+    }
+    .abs-child {
+      width: 100px;
+      height: 100px;
+      background-color: green;
+      position: absolute;
+      right: 0;
+    }
+  </style>
+
+  <body>
+    <div class="abs-box">
+      <div class="abs-child"></div>
+    </div>
+  </body>
+</html>

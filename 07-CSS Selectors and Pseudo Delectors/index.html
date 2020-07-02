@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="테스트용 페이지"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatioble" content="ie=edge" />
+    <title>inline example</title>
+  </head>
+  <style>
+input[type="submit"]{
+    background-color: red;
+}
+
+input[type="password"]{
+    background-color: blue;
+}
+
+input[required="required"] {
+    background-color: green;
+}   
+
+input{
+    border:1px solid yellow;
+}
+
+.box{
+    background-color: hotpink;
+    display: block;
+    height: 100px;
+    border:1px solid black;
+}
+.box:last-child{
+    background-color: indianred;
+}
+.box:first-child{
+    background-color: darkgrey;
+}
+.box:nth-child(2n){
+    background-color: darkmagenta;
+}
+  </style>
+
+  <body>
+    <div class="container">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box">
+             <input type="password" required="required"></input>
+             <input type="submit" required="required"></input>
+      </div>
+
+    </div>
+  </body>
+</html>
